@@ -1,0 +1,42 @@
+.container {
+  max-width: 1440px;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.box-1 {
+  background-color: lightblue;
+  width: 50%;
+  margin: 0;
+}
+
+.box-2 {
+  background-color: lightyellow;
+  width: 50%;
+}
+
+.box-25 {
+  background-color: orange;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-25 p {
+  width: 50%;
+}
+
+.box-3 {
+  background-color: lightyellow;
+  width: 50%;
+  height: 300px;
+}
