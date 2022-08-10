@@ -75,3 +75,28 @@
 
   background-color: lightyellow;
 }
+
+/* //________________________________________________ */
+
+.item {
+  min-height: 300px;
+  outline: 3px solid limegreen;
+}
+
+.flex-container-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 33%;
+  min-width: 300px;
+}
+
+.item-one {
+  flex: 1 1 33%;
+}
+
+/* .item-three {
+  flex-grow: 0;
+} */
